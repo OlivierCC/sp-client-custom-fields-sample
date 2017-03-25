@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "sp-client-custom-fields-sample",
+    "framework": "react",
+    "version": "1.0.0",
+    "libraryId": "daec828a-965b-446d-9004-d4ce6c39acce"
+  }
+}

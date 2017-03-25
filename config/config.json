@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/customFieldsSample/CustomFieldsSampleWebPart.js",
+      "manifest": "./src/webparts/customFieldsSample/CustomFieldsSampleWebPart.manifest.json",
+      "outputPath": "./dist/custom-fields-sample.bundle.js"
+    }
+  ],
+  "externals": {
+      "sp-client-custom-fields": "node_modules/sp-client-custom-fields/dist/sp-client-custom-fields.bundle.js"
+  },
+  "localizedResources": {
+    "customFieldsSampleStrings": "webparts/customFieldsSample/loc/{locale}.js",
+    "sp-client-custom-fields/strings": "../node_modules/sp-client-custom-fields/lib/loc/{locale}.js"
+  }
+}

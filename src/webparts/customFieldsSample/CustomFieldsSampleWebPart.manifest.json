@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "2a0f24fe-6103-4632-b9cf-735ca2b49e54",
+  "alias": "CustomFieldsSampleWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "2a0f24fe-6103-4632-b9cf-735ca2b49e54",
+    "group": { "default": "Under Development" },
+    "title": { "default": "CustomFieldsSample" },
+    "description": { "default": "CustomFieldsSample description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "text": "sample text",
+      "color": "#EEEEEE",
+      "fontSize": "24px",
+      "font": "\"Arial Black\",\"Arial Bold\",Gadget,sans-serif"
+    }
+  }]
+}
